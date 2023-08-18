@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcfffa;
+}
+
+.navbar {
+  background-color: #3DCD58 !important;
+}
+
+.nav-link {
+  color: #fcfffa !important;
+}
+
+.navbar-brand img {
+  transition: transform 0.3s;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}
+
+.navbar-toggler {
+  border-color: #fcfffa;
+}
+
+.navbar-toggler-icon {
+  background-color: #fcfffa;
+}
+
+
+.footer {
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fcfffa;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3DCD58 !important;
+  color: #fcfffa !important;
+}
+
+  .footer {
+  background-color: #3DCD58;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+footer {
+background-color: #3DCD58;
+color: #fff;
+padding: 20px 0;
+}
+
+footer h4 {
+color: #fff;
+margin-bottom: 20px;
+}
+
+footer p {
+color: #fff;
+margin-bottom: 20px;
+}
+
+footer .newsletter-form .form-control {
+border-radius: 0;
+background-color: #3DCD58;
+color: #fff;
+}
+footer .form-control {
+color: #000000 !important;
+}
+footer label {
+color: #bc1616 !important;
+}
+
+footer .newsletter-form .btn-primary:hover {
+background-color: #fff;
+border-color: #fff;
+}
+
+.form-control::placeholder {
+color: white
+}
+
+footer .contact-info li {
+margin-bottom: 10px;
+}
+
+footer .contact-info i {
+margin-right: 10px;
+}
+
+footer .newsletter-form .btn-primary:hover {
+background-color: #fff;
+border-color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #42B4E6;
+  border-color: #42B4E6;
+}
