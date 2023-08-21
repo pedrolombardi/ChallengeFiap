@@ -1,0 +1,33 @@
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-size {
+    width: 250px;
+    height: 200px;
+}
+
+.div-cards {
+    margin-right: 20px;
+}
+
+#main-title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#main-text {
+    padding-bottom: 40px;
+}
+
+.content {
+    text-align: center;
+}
