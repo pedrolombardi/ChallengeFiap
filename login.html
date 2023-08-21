@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/funcaoEquipe.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
                         <a class="nav-link" href="trilhas.html">Trilhas Educacionais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Função da Equipe</a>
+                        <a class="nav-link" href="funcaodaequipe.html">Função da Equipe</a>
 
                         
                     </li>
@@ -41,17 +42,22 @@
         </div>
     </header>
     <article>
-        <h1>Login</h1>
-        <form>
-            <label for="username"></label>
-            <input type="text" placeholder="username" name="username" required>
-            
-            <label for="pwd"></label>
-            <input type="password" name="pwd" placeholder="password" name="pwd">
-            
-            <button type="submit">Login</button>
+      <div>
+        <div class="title">
 
+          <h1>Login</h1>
+        </div>
+        <form class="login-form">
+          <label for="username"></label>
+          <input class="input" type="text" placeholder="username" name="username" required>
+          
+          <label for="pwd"></label>
+          <input type="password" class="input" name="pwd" placeholder="password" name="pwd">
+          
+          <button class="btn btn-primary" type="submit">Login</button>
+          
         </form>
+      </div>
     </article>
 
     <footer class="footer bg-primary sticky-footer">

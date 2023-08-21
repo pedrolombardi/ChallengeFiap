@@ -28,9 +28,6 @@ body {
 }
 
 
-.footer {
-  padding: 20px 0;
-}
 
 .footer p {
   margin: 0;
@@ -45,6 +42,14 @@ body {
 }
 
 .sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3DCD58 !important;
+  color: #fcfffa !important;
+}
+
+.sticky-footer-index {
   position: relative;
   bottom: 0;
   width: 100%;
