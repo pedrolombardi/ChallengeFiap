@@ -41,6 +41,12 @@ body {
   text-decoration: underline;
 }
 
+.video-text {
+  text-align: center;
+  padding: 15px;
+}
+
+
 .sticky-footer {
   position: fixed;
   bottom: 0;
@@ -126,8 +132,10 @@ border-color: #fff;
 
 .main-color {
   background-image: linear-gradient(to left, #eaecea,#ededed);
+  padding: 15px;
 }
 
 .second-color {
   background-image: linear-gradient(to left, #eaecea,#ededed);
+  padding: 15px;
 }

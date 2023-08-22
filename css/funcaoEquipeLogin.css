@@ -16,3 +16,7 @@
 .input {
     border-radius: 10px;
 }
+
+.input-login {
+    padding-bottom: 15px;
+}

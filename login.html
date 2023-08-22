@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/funcaoEquipe.css">
+    <link rel="stylesheet" href="css/funcaoEquipeLogin.css">
     <title>Document</title>
 </head>
 <body>
@@ -48,13 +48,16 @@
           <h1>Login</h1>
         </div>
         <form class="login-form">
-          <label for="username"></label>
-          <input class="input" type="text" placeholder="username" name="username" required>
-          
-          <label for="pwd"></label>
-          <input type="password" class="input" name="pwd" placeholder="password" name="pwd">
-          
-          <button class="btn btn-primary" type="submit">Login</button>
+          <div class="input-login">
+            <label for="username"></label>
+            <input class="input" type="text" placeholder="username" name="username" required>
+            
+            <label for="pwd"></label>
+            <input type="password" class="input" name="pwd" placeholder="password" name="pwd">
+          </div>
+          <div>
+            <button class="btn btn-success" type="submit">Login</button>
+          </div>
           
         </form>
       </div>
